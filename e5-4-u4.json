@@ -1,0 +1,1008 @@
+{
+    "units": {
+        "e5-4-u4": {
+            "title": "Unit 4",
+            "vocab": [
+                {
+                    "id": "e5-4-u4-v001",
+                    "word": "jacket",
+                    "part_of_speech": "n.",
+                    "chinese": "夾克",
+                    "sentence": "Whose jacket is it?",
+                    "sentence_chinese": "這是誰的夾克？"
+                },
+                {
+                    "id": "e5-4-u4-v002",
+                    "word": "smartphone",
+                    "part_of_speech": "n.",
+                    "chinese": "智慧型手機",
+                    "sentence": "I have a new smartphone.",
+                    "sentence_chinese": "我有一支新的智慧型手機。"
+                },
+                {
+                    "id": "e5-4-u4-v003",
+                    "word": "umbrella",
+                    "part_of_speech": "n.",
+                    "chinese": "雨傘",
+                    "sentence": "Don't forget your umbrella.",
+                    "sentence_chinese": "別忘了你的雨傘。"
+                },
+                {
+                    "id": "e5-4-u4-v004",
+                    "word": "watch",
+                    "part_of_speech": "n.",
+                    "chinese": "手錶",
+                    "sentence": "This watch is a gift from my dad.",
+                    "sentence_chinese": "這只手錶是我爸爸送的禮物。"
+                },
+                {
+                    "id": "e5-4-u4-v005",
+                    "word": "water bottle",
+                    "part_of_speech": "n.",
+                    "chinese": "水壺",
+                    "sentence": "Is this your water bottle?",
+                    "sentence_chinese": "這是你的水壺嗎？"
+                },
+                {
+                    "id": "e5-4-u4-v006",
+                    "word": "key",
+                    "part_of_speech": "n.",
+                    "chinese": "鑰匙",
+                    "sentence": "I can't find my house key.",
+                    "sentence_chinese": "我找不到我的家門鑰匙。"
+                },
+                {
+                    "id": "e5-4-u4-v007",
+                    "word": "glasses",
+                    "part_of_speech": "n.",
+                    "chinese": "眼鏡",
+                    "sentence": "Whose glasses are they?",
+                    "sentence_chinese": "這是誰的眼鏡？"
+                },
+                {
+                    "id": "e5-4-u4-v008",
+                    "word": "whose",
+                    "part_of_speech": "det./pron.",
+                    "chinese": "誰的",
+                    "sentence": "Whose book is this?",
+                    "sentence_chinese": "這是誰的書？"
+                }
+            ],
+            "phrases": [
+                {
+                    "id": "e5-4-u4-p001",
+                    "phrase": "Kevin's jacket",
+                    "chinese": "Kevin 的夾克",
+                    "sentence": "It's Kevin's jacket.",
+                    "sentence_chinese": "這是 Kevin 的夾克。"
+                },
+                {
+                    "id": "e5-4-u4-p002",
+                    "phrase": "my glasses",
+                    "chinese": "我的眼鏡",
+                    "sentence": "They're my glasses.",
+                    "sentence_chinese": "這是我的眼鏡。"
+                }
+            ],
+            "grammar": {
+                "tips": [
+                    {
+                        "label": "基本句型-單數",
+                        "text": "Whose + 單數名詞 + is it?"
+                    },
+                    {
+                        "label": "基本句型-複數",
+                        "text": "Whose + 複數名詞 + are they?"
+                    },
+                    {
+                        "label": "回答方式-單數",
+                        "text": "It is + 所有格 (名詞's / 所有格形容詞) + 單數名詞."
+                    },
+                    {
+                        "label": "回答方式-複數",
+                        "text": "They are + 所有格 (名詞's / 所有格形容詞) + 複數名詞."
+                    }
+                ],
+                "notes": [
+                    {
+                        "title": "所有格疑問詞 Whose 的用法",
+                        "rule": "Whose 用於詢問物品的所有權歸屬。",
+                        "description": "Whose 置於句首，後方必須緊接所詢問的名詞。根據物品的單複數，動詞與代名詞需做相應調整。",
+                        "examples": [
+                            "Whose jacket is it?",
+                            "Whose glasses are they?"
+                        ]
+                    },
+                    {
+                        "title": "所有格名詞與所有格形容詞",
+                        "rule": "名詞字尾加 's 或使用所有格形容詞。",
+                        "description": "人名後加 's (如 Kevin's) 表所有權。常用所有格形容詞包括 my, your, his, her 等。不可漏掉名詞。",
+                        "examples": [
+                            "It's Kevin's jacket.",
+                            "They're my glasses."
+                        ]
+                    },
+                    {
+                        "title": "特殊名詞：恆為複數的名詞",
+                        "rule": "glasses (眼鏡) 恆為複數型態。",
+                        "description": "眼鏡因有兩個鏡片，在英文語法中被視為複數，詢問時須搭配 are 與 they，不可使用 is 或 it。",
+                        "examples": [
+                            "Whose glasses are they?",
+                            "They are my glasses."
+                        ]
+                    }
+                ],
+                "quiz": [
+                    {
+                        "id": "e5-4-u4-q001",
+                        "question": "_____ watch is this? Is it yours?",
+                        "options": [
+                            "Who",
+                            "Whose",
+                            "Where",
+                            "What"
+                        ],
+                        "answer": "Whose",
+                        "answer_index": 1,
+                        "hint": "詢問物品的所有權，後接名詞 watch，使用 Whose。"
+                    },
+                    {
+                        "id": "e5-4-u4-q002",
+                        "question": "Those are my _____ . They are on the table.",
+                        "options": [
+                            "glasses",
+                            "glass",
+                            "a glass",
+                            "glasses's"
+                        ],
+                        "answer": "glasses",
+                        "answer_index": 0,
+                        "hint": "眼鏡恆為複數型態 glasses，搭配 those are。"
+                    },
+                    {
+                        "id": "e5-4-u4-q003",
+                        "question": "A: Whose umbrella is it? B: It's _____ .",
+                        "options": [
+                            "Mary",
+                            "Marys",
+                            "Mary's",
+                            "she"
+                        ],
+                        "answer": "Mary's",
+                        "answer_index": 2,
+                        "hint": "回答是誰的，人名後須加 's 表示所有格。"
+                    },
+                    {
+                        "id": "e5-4-u4-q004",
+                        "question": "This is not my smartphone. It is _____ .",
+                        "options": [
+                            "he",
+                            "him",
+                            "his",
+                            "he's"
+                        ],
+                        "answer": "his",
+                        "answer_index": 2,
+                        "hint": "his 在此可作為所有格代名詞，表示『他的物品』。"
+                    },
+                    {
+                        "id": "e5-4-u4-q005",
+                        "question": "Whose water _____ are they?",
+                        "options": [
+                            "bottle",
+                            "a bottle",
+                            "bottles",
+                            "bottle's"
+                        ],
+                        "answer": "bottles",
+                        "answer_index": 2,
+                        "hint": "句尾使用 are they，代表詢問的名詞必須是複數型 bottles。"
+                    },
+                    {
+                        "id": "e5-4-u4-q006",
+                        "question": "Don't forget _____ jacket. It's cold outside.",
+                        "options": [
+                            "you",
+                            "your",
+                            "yours",
+                            "you're"
+                        ],
+                        "answer": "your",
+                        "answer_index": 1,
+                        "hint": "修飾名詞 jacket 需要用所有格形容詞 your。"
+                    },
+                    {
+                        "id": "e5-4-u4-q007",
+                        "question": "A: _____ are these keys? B: They are mine.",
+                        "options": [
+                            "Who",
+                            "What",
+                            "Whose",
+                            "Where"
+                        ],
+                        "answer": "Whose",
+                        "answer_index": 2,
+                        "hint": "詢問鑰匙是誰的，使用 Whose。"
+                    },
+                    {
+                        "id": "e5-4-u4-q008",
+                        "question": "That _____ gift is from my dad.",
+                        "options": [
+                            "watch",
+                            "watches",
+                            "watch's",
+                            "watches'"
+                        ],
+                        "answer": "watch",
+                        "answer_index": 0,
+                        "hint": "That 後面接單數名詞 watch。"
+                    },
+                    {
+                        "id": "e5-4-u4-q009",
+                        "question": "Is this _____ smartphone? It's very smart.",
+                        "options": [
+                            "teacher",
+                            "the teacher",
+                            "the teacher's",
+                            "teachers"
+                        ],
+                        "answer": "the teacher's",
+                        "answer_index": 2,
+                        "hint": "「老師的」智慧型手機，需使用 's。"
+                    },
+                    {
+                        "id": "e5-4-u4-q010",
+                        "question": "I can't find _____ house key.",
+                        "options": [
+                            "me",
+                            "I",
+                            "my",
+                            "mine"
+                        ],
+                        "answer": "my",
+                        "answer_index": 2,
+                        "hint": "修飾名詞 house key 需要用所有格形容詞 my。"
+                    },
+                    {
+                        "id": "e5-4-u4-q011",
+                        "question": "A: Whose _____ are these? B: They are my father's.",
+                        "options": [
+                            "jacket",
+                            "umbrella",
+                            "glasses",
+                            "watch"
+                        ],
+                        "answer": "glasses",
+                        "answer_index": 2,
+                        "hint": "these 與 they 顯示受測名詞為複數，選項中只有 glasses 是複數。"
+                    },
+                    {
+                        "id": "e5-4-u4-q012",
+                        "question": "Whose book is _____?",
+                        "options": [
+                            "it",
+                            "they",
+                            "these",
+                            "those"
+                        ],
+                        "answer": "it",
+                        "answer_index": 0,
+                        "hint": "book 是單數，搭配 is it。"
+                    },
+                    {
+                        "id": "e5-4-u4-q013",
+                        "question": "These keys _____ yours.",
+                        "options": [
+                            "is",
+                            "am",
+                            "are",
+                            "be"
+                        ],
+                        "answer": "are",
+                        "answer_index": 2,
+                        "hint": "主詞 These keys 是複數，動詞用 are。"
+                    },
+                    {
+                        "id": "e5-4-u4-q014",
+                        "question": "It is _____ umbrella.",
+                        "options": [
+                            "a",
+                            "an",
+                            "x",
+                            "the"
+                        ],
+                        "answer": "an",
+                        "answer_index": 1,
+                        "hint": "umbrella 是母音開頭的單數名詞，使用不定冠詞 an。"
+                    },
+                    {
+                        "id": "e5-4-u4-q015",
+                        "question": "Whose _____ is it? It's blue.",
+                        "options": [
+                            "glasses",
+                            "jacket",
+                            "keys",
+                            "shoes"
+                        ],
+                        "answer": "jacket",
+                        "answer_index": 1,
+                        "hint": "is it 提示前方為單數名詞，選項中只有 jacket 是單數。"
+                    },
+                    {
+                        "id": "e5-4-u4-q016",
+                        "question": "The water bottle is _____ .",
+                        "options": [
+                            "Kevin",
+                            "Kevin's",
+                            "Kevins",
+                            "he"
+                        ],
+                        "answer": "Kevin's",
+                        "answer_index": 1,
+                        "hint": "所有格名詞 Kevin's 可在句尾當作所有格代名詞使用。"
+                    },
+                    {
+                        "id": "e5-4-u4-q017",
+                        "question": "I have _____ new smartphone.",
+                        "options": [
+                            "an",
+                            "a",
+                            "two",
+                            "many"
+                        ],
+                        "answer": "a",
+                        "answer_index": 1,
+                        "hint": "new 以子音開頭，單數名詞搭配 a。"
+                    },
+                    {
+                        "id": "e5-4-u4-q018",
+                        "question": "A: Whose glasses are they? B: _____ .",
+                        "options": [
+                            "It is mine",
+                            "They are mine",
+                            "Is mine",
+                            "Are mine"
+                        ],
+                        "answer": "They are mine",
+                        "answer_index": 1,
+                        "hint": "詢問 glasses (複數)，回答須用 They are。"
+                    },
+                    {
+                        "id": "e5-4-u4-q019",
+                        "question": "Where is _____ watch? I need to know the time.",
+                        "options": [
+                            "I",
+                            "me",
+                            "my",
+                            "mine"
+                        ],
+                        "answer": "my",
+                        "answer_index": 2,
+                        "hint": "修飾名詞 watch 使用所有格形容詞 my。"
+                    },
+                    {
+                        "id": "e5-4-u4-q020",
+                        "question": "That umbrella is not _____ . It's her umbrella.",
+                        "options": [
+                            "your",
+                            "you",
+                            "yours",
+                            "her"
+                        ],
+                        "answer": "yours",
+                        "answer_index": 2,
+                        "hint": "此處需要一個所有格代名詞來代表『你的雨傘』。"
+                    },
+                    {
+                        "id": "e5-4-u4-q021",
+                        "question": "Is that _____ water bottle?",
+                        "options": [
+                            "you",
+                            "your",
+                            "yours",
+                            "you're"
+                        ],
+                        "answer": "your",
+                        "answer_index": 1,
+                        "hint": "修飾名詞 water bottle 使用 your。"
+                    },
+                    {
+                        "id": "e5-4-u4-q022",
+                        "question": "Whose _____ are those?",
+                        "options": [
+                            "watch",
+                            "keys",
+                            "smartphone",
+                            "umbrella"
+                        ],
+                        "answer": "keys",
+                        "answer_index": 1,
+                        "hint": "are those 提示前方為複數名詞。"
+                    },
+                    {
+                        "id": "e5-4-u4-q023",
+                        "question": "It's _____ smartphone. It's very expensive.",
+                        "options": [
+                            "Ben",
+                            "Bens",
+                            "Ben's",
+                            "Bens'"
+                        ],
+                        "answer": "Ben's",
+                        "answer_index": 2,
+                        "hint": "表示「Ben 的」，使用 Ben's。"
+                    },
+                    {
+                        "id": "e5-4-u4-q024",
+                        "question": "A: _____ jacket is this? B: It's my jacket.",
+                        "options": [
+                            "Who",
+                            "Whose",
+                            "What",
+                            "How"
+                        ],
+                        "answer": "Whose",
+                        "answer_index": 1,
+                        "hint": "詢問物品歸屬。"
+                    },
+                    {
+                        "id": "e5-4-u4-q025",
+                        "question": "These are _____ glasses.",
+                        "options": [
+                            "he",
+                            "his",
+                            "she",
+                            "they"
+                        ],
+                        "answer": "his",
+                        "answer_index": 1,
+                        "hint": "his 為所有格形容詞，用來修飾 glasses。"
+                    },
+                    {
+                        "id": "e5-4-u4-q026",
+                        "question": "A: Whose water bottles are they? B: They are _____ .",
+                        "options": [
+                            "my brother",
+                            "my brother's",
+                            "my brothers",
+                            "he"
+                        ],
+                        "answer": "my brother's",
+                        "answer_index": 1,
+                        "hint": "表示「我哥哥的」，需在人名或稱呼後加 's。"
+                    },
+                    {
+                        "id": "e5-4-u4-q027",
+                        "question": "The _____ key is on the chair.",
+                        "options": [
+                            "watch",
+                            "glasses",
+                            "car",
+                            "whose"
+                        ],
+                        "answer": "car",
+                        "answer_index": 2,
+                        "hint": "單數動詞 is 搭配單數名詞 car key。"
+                    },
+                    {
+                        "id": "e5-4-u4-q028",
+                        "question": "A: Whose glasses are these? B: _____ my glasses.",
+                        "options": [
+                            "It is",
+                            "They are",
+                            "This is",
+                            "That is"
+                        ],
+                        "answer": "They are",
+                        "answer_index": 1,
+                        "hint": "glasses 是複數型態，代名詞必須用 They。"
+                    },
+                    {
+                        "id": "e5-4-u4-q029",
+                        "question": "Whose _____ is that? Is it new?",
+                        "options": [
+                            "smartphones",
+                            "umbrella",
+                            "keys",
+                            "glasses"
+                        ],
+                        "answer": "umbrella",
+                        "answer_index": 1,
+                        "hint": "is that 提示受測物品為單數，選項中僅 umbrella 為單數。"
+                    },
+                    {
+                        "id": "e5-4-u4-q030",
+                        "question": "I have two _____ . They are gifts from my friends.",
+                        "options": [
+                            "watch",
+                            "watchs",
+                            "watches",
+                            "a watch"
+                        ],
+                        "answer": "watches",
+                        "answer_index": 2,
+                        "hint": "watch 的複數型態為 watches。"
+                    },
+                    {
+                        "id": "e5-4-u4-q031",
+                        "question": "Whose smartphone is _____? Is it your sister's?",
+                        "options": [
+                            "they",
+                            "it",
+                            "these",
+                            "those"
+                        ],
+                        "answer": "it",
+                        "answer_index": 1,
+                        "hint": "smartphone 為單數名詞，搭配代名詞 it。"
+                    },
+                    {
+                        "id": "e5-4-u4-q032",
+                        "question": "A: Whose keys are they? B: _____ my house keys.",
+                        "options": [
+                            "They're",
+                            "It's",
+                            "Its",
+                            "Their"
+                        ],
+                        "answer": "They're",
+                        "answer_index": 0,
+                        "hint": "keys 為複數，使用 They're (They are)。"
+                    },
+                    {
+                        "id": "e5-4-u4-q033",
+                        "question": "Is this _____ jacket?",
+                        "options": [
+                            "you",
+                            "your",
+                            "yours",
+                            "you're"
+                        ],
+                        "answer": "your",
+                        "answer_index": 1,
+                        "hint": "修飾名詞 jacket 使用所有格形容詞 your。"
+                    },
+                    {
+                        "id": "e5-4-u4-q034",
+                        "question": "Whose umbrella _____ this?",
+                        "options": [
+                            "are",
+                            "am",
+                            "is",
+                            "be"
+                        ],
+                        "answer": "is",
+                        "answer_index": 2,
+                        "hint": "umbrella 為單數，搭配 be 動詞 is。"
+                    },
+                    {
+                        "id": "e5-4-u4-q035",
+                        "question": "These are not my glasses. They are _____ glasses.",
+                        "options": [
+                            "he",
+                            "him",
+                            "his",
+                            "his's"
+                        ],
+                        "answer": "his",
+                        "answer_index": 2,
+                        "hint": "his 為所有格形容詞，表示「他的」。"
+                    },
+                    {
+                        "id": "e5-4-u4-q036",
+                        "question": "Whose _____ are they? Are they Kevin's?",
+                        "options": [
+                            "water bottle",
+                            "smartphone",
+                            "keys",
+                            "jacket"
+                        ],
+                        "answer": "keys",
+                        "answer_index": 2,
+                        "hint": "根據 are they 判斷，必須選擇複數名詞 keys。"
+                    },
+                    {
+                        "id": "e5-4-u4-q037",
+                        "question": "A: Whose watch is it? B: It is _____ watch.",
+                        "options": [
+                            "my mom",
+                            "my mom's",
+                            "my moms",
+                            "she"
+                        ],
+                        "answer": "my mom's",
+                        "answer_index": 1,
+                        "hint": "表示「我媽媽的」，需使用所有格 mom's。"
+                    },
+                    {
+                        "id": "e5-4-u4-q038",
+                        "question": "Don't forget _____ umbrella. It is raining.",
+                        "options": [
+                            "you",
+                            "yours",
+                            "your",
+                            "you're"
+                        ],
+                        "answer": "your",
+                        "answer_index": 2,
+                        "hint": "your 修飾後方的名詞 umbrella。"
+                    },
+                    {
+                        "id": "e5-4-u4-q039",
+                        "question": "Whose _____ is it? Is it your smartphone?",
+                        "options": [
+                            "these",
+                            "those",
+                            "that",
+                            "they"
+                        ],
+                        "answer": "that",
+                        "answer_index": 2,
+                        "hint": "Whose + 名詞 + is + 單數指示代名詞 (that)。"
+                    },
+                    {
+                        "id": "e5-4-u4-q040",
+                        "question": "A: Whose glasses are they? B: They're _____ .",
+                        "options": [
+                            "teachers",
+                            "the teachers",
+                            "teacher's",
+                            "the teacher's"
+                        ],
+                        "answer": "the teacher's",
+                        "answer_index": 3,
+                        "hint": "指特定對象的所有格「那位老師的」。"
+                    },
+                    {
+                        "id": "e5-4-u4-q041",
+                        "question": "_____ glasses are on the desk.",
+                        "options": [
+                            "Kevin",
+                            "Kevin's",
+                            "Kevins",
+                            "He"
+                        ],
+                        "answer": "Kevin's",
+                        "answer_index": 1,
+                        "hint": "使用所有格名詞 Kevin's 來修飾名詞 glasses。"
+                    },
+                    {
+                        "id": "e5-4-u4-q042",
+                        "question": "Is that _____ water bottle? No, it's mine.",
+                        "options": [
+                            "her",
+                            "hers",
+                            "she",
+                            "he"
+                        ],
+                        "answer": "her",
+                        "answer_index": 0,
+                        "hint": "詢問「她的」水壺，使用所有格形容詞 her。"
+                    },
+                    {
+                        "id": "e5-4-u4-q043",
+                        "question": "Whose keys _____ those on the table?",
+                        "options": [
+                            "is",
+                            "am",
+                            "are",
+                            "be"
+                        ],
+                        "answer": "are",
+                        "answer_index": 2,
+                        "hint": "keys 為複數名詞，對應的 be 動詞為 are。"
+                    },
+                    {
+                        "id": "e5-4-u4-q044",
+                        "question": "I have a gift. It is a new _____ .",
+                        "options": [
+                            "glasses",
+                            "watches",
+                            "smartphone",
+                            "keys"
+                        ],
+                        "answer": "smartphone",
+                        "answer_index": 2,
+                        "hint": "不定冠詞 a 提示後方需接單數名詞。"
+                    },
+                    {
+                        "id": "e5-4-u4-q045",
+                        "question": "A: Whose jacket is this? B: It is _____ .",
+                        "options": [
+                            "my dad",
+                            "my dads",
+                            "my dad's",
+                            "he dad"
+                        ],
+                        "answer": "my dad's",
+                        "answer_index": 2,
+                        "hint": "表示「我爸爸的」，使用 dad's。"
+                    },
+                    {
+                        "id": "e5-4-u4-q046",
+                        "question": "Whose _____ are these? They're my sister's.",
+                        "options": [
+                            "jacket",
+                            "watch",
+                            "umbrella",
+                            "glasses"
+                        ],
+                        "answer": "glasses",
+                        "answer_index": 3,
+                        "hint": "these 提示須搭配複數名詞 glasses。"
+                    },
+                    {
+                        "id": "e5-4-u4-q047",
+                        "question": "A: Is this your key? B: No, _____ is in my bag.",
+                        "options": [
+                            "my key",
+                            "I key",
+                            "me key",
+                            "mine key"
+                        ],
+                        "answer": "my key",
+                        "answer_index": 0,
+                        "hint": "所有格形容詞 my 修飾名詞 key。"
+                    },
+                    {
+                        "id": "e5-4-u4-q048",
+                        "question": "Whose _____ is it? It is red.",
+                        "options": [
+                            "smartphones",
+                            "keys",
+                            "glasses",
+                            "umbrella"
+                        ],
+                        "answer": "umbrella",
+                        "answer_index": 3,
+                        "hint": "is it 提示搭配單數名詞 umbrella。"
+                    },
+                    {
+                        "id": "e5-4-u4-q049",
+                        "question": "A: Whose glasses are they? B: They're _____ .",
+                        "options": [
+                            "I",
+                            "me",
+                            "my",
+                            "mine"
+                        ],
+                        "answer": "mine",
+                        "answer_index": 3,
+                        "hint": "mine 為所有格代名詞，在此代表「我的眼鏡」。"
+                    },
+                    {
+                        "id": "e5-4-u4-q050",
+                        "question": "That's _____ new watch. It's cool!",
+                        "options": [
+                            "Kevin",
+                            "Kevins",
+                            "Kevin's",
+                            "Kevin is"
+                        ],
+                        "answer": "Kevin's",
+                        "answer_index": 2,
+                        "hint": "使用名詞所有格 Kevin's。"
+                    }
+                ]
+            },
+            "scrambles": {
+                "vocab": [
+                    {
+                        "id": "e5-4-u4-sv001",
+                        "vocab_id": "e5-4-u4-v001",
+                        "sentence": "Whose jacket is it?",
+                        "sentence_chinese": "這是誰的夾克？"
+                    },
+                    {
+                        "id": "e5-4-u4-sv002",
+                        "vocab_id": "e5-4-u4-v002",
+                        "sentence": "I have a new smartphone.",
+                        "sentence_chinese": "我有一支新的智慧型手機。"
+                    },
+                    {
+                        "id": "e5-4-u4-sv003",
+                        "vocab_id": "e5-4-u4-v003",
+                        "sentence": "Don't forget your umbrella.",
+                        "sentence_chinese": "別忘了你的雨傘。"
+                    },
+                    {
+                        "id": "e5-4-u4-sv004",
+                        "vocab_id": "e5-4-u4-v004",
+                        "sentence": "This watch is a gift from my dad.",
+                        "sentence_chinese": "這只手錶是我爸爸送的禮物。"
+                    },
+                    {
+                        "id": "e5-4-u4-sv005",
+                        "vocab_id": "e5-4-u4-v005",
+                        "sentence": "Is this your water bottle?",
+                        "sentence_chinese": "這是你的水壺嗎？"
+                    },
+                    {
+                        "id": "e5-4-u4-sv006",
+                        "vocab_id": "e5-4-u4-v006",
+                        "sentence": "I can't find my house key.",
+                        "sentence_chinese": "我找不到我的家門鑰匙。"
+                    },
+                    {
+                        "id": "e5-4-u4-sv007",
+                        "vocab_id": "e5-4-u4-v007",
+                        "sentence": "Whose glasses are they?",
+                        "sentence_chinese": "這是誰的眼鏡？"
+                    },
+                    {
+                        "id": "e5-4-u4-sv008",
+                        "vocab_id": "e5-4-u4-v008",
+                        "sentence": "Whose book is this?",
+                        "sentence_chinese": "這是誰的書？"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "id": "e5-4-u4-sp001",
+                        "phrase_id": "e5-4-u4-p001",
+                        "sentence": "It's Kevin's jacket.",
+                        "sentence_chinese": "這是 Kevin 的夾克。"
+                    },
+                    {
+                        "id": "e5-4-u4-sp002",
+                        "phrase_id": "e5-4-u4-p002",
+                        "sentence": "They're my glasses.",
+                        "sentence_chinese": "這是我的眼鏡。"
+                    }
+                ],
+                "grammar": [
+                    {
+                        "id": "e5-4-u4-sg001",
+                        "sentence": "Whose jacket is it?",
+                        "sentence_chinese": "這是誰的夾克？"
+                    },
+                    {
+                        "id": "e5-4-u4-sg002",
+                        "sentence": "It is Kevin's jacket.",
+                        "sentence_chinese": "它是 Kevin 的夾克。"
+                    },
+                    {
+                        "id": "e5-4-u4-sg003",
+                        "sentence": "Whose glasses are they?",
+                        "sentence_chinese": "這些是誰的眼鏡？"
+                    },
+                    {
+                        "id": "e5-4-u4-sg004",
+                        "sentence": "They are my glasses.",
+                        "sentence_chinese": "它們是我的眼鏡。"
+                    },
+                    {
+                        "id": "e5-4-u4-sg005",
+                        "sentence": "Is this your smartphone?",
+                        "sentence_chinese": "這是你的智慧型手機嗎？"
+                    },
+                    {
+                        "id": "e5-4-u4-sg006",
+                        "sentence": "It is my new smartphone.",
+                        "sentence_chinese": "它是我的新智慧型手機。"
+                    },
+                    {
+                        "id": "e5-4-u4-sg007",
+                        "sentence": "Whose umbrella is this?",
+                        "sentence_chinese": "這是誰的雨傘？"
+                    },
+                    {
+                        "id": "e5-4-u4-sg008",
+                        "sentence": "It is my sister's umbrella.",
+                        "sentence_chinese": "它是我姊姊的雨傘。"
+                    },
+                    {
+                        "id": "e5-4-u4-sg009",
+                        "sentence": "Whose keys are these?",
+                        "sentence_chinese": "這些是誰的鑰匙？"
+                    },
+                    {
+                        "id": "e5-4-u4-sg010",
+                        "sentence": "They are my father's keys.",
+                        "sentence_chinese": "它們是我父親的鑰匙。"
+                    },
+                    {
+                        "id": "e5-4-u4-sg011",
+                        "sentence": "Is that your water bottle?",
+                        "sentence_chinese": "那是你的水壺嗎？"
+                    },
+                    {
+                        "id": "e5-4-u4-sg012",
+                        "sentence": "It is not my water bottle.",
+                        "sentence_chinese": "它不是我的水壺。"
+                    },
+                    {
+                        "id": "e5-4-u4-sg013",
+                        "sentence": "Whose watch is that?",
+                        "sentence_chinese": "那是誰的手錶？"
+                    },
+                    {
+                        "id": "e5-4-u4-sg014",
+                        "sentence": "It is a gift from my dad.",
+                        "sentence_chinese": "它是來自爸爸的禮物。"
+                    },
+                    {
+                        "id": "e5-4-u4-sg015",
+                        "sentence": "Those are my teacher's glasses.",
+                        "sentence_chinese": "那些是我老師的眼鏡。"
+                    },
+                    {
+                        "id": "e5-4-u4-sg016",
+                        "sentence": "Whose smartphone is it?",
+                        "sentence_chinese": "這是誰的智慧型手機？"
+                    },
+                    {
+                        "id": "e5-4-u4-sg017",
+                        "sentence": "It is his new smartphone.",
+                        "sentence_chinese": "它是他的新智慧型手機。"
+                    },
+                    {
+                        "id": "e5-4-u4-sg018",
+                        "sentence": "Whose water bottles are they?",
+                        "sentence_chinese": "這些是誰的水壺？"
+                    },
+                    {
+                        "id": "e5-4-u4-sg019",
+                        "sentence": "They are our water bottles.",
+                        "sentence_chinese": "它們是我們的水壺。"
+                    },
+                    {
+                        "id": "e5-4-u4-sg020",
+                        "sentence": "Is this your house key?",
+                        "sentence_chinese": "這是你的家門鑰匙嗎？"
+                    },
+                    {
+                        "id": "e5-4-u4-sg021",
+                        "sentence": "It is her house key.",
+                        "sentence_chinese": "它是她的家門鑰匙。"
+                    },
+                    {
+                        "id": "e5-4-u4-sg022",
+                        "sentence": "Whose jacket is that on the chair?",
+                        "sentence_chinese": "椅子上那件是誰的夾克？"
+                    },
+                    {
+                        "id": "e5-4-u4-sg023",
+                        "sentence": "It is my brother's jacket.",
+                        "sentence_chinese": "它是我哥哥的夾克。"
+                    },
+                    {
+                        "id": "e5-4-u4-sg024",
+                        "sentence": "Whose umbrella are you holding?",
+                        "sentence_chinese": "你拿著的是誰的雨傘？"
+                    },
+                    {
+                        "id": "e5-4-u4-sg025",
+                        "sentence": "This is my mother's umbrella.",
+                        "sentence_chinese": "這是我母親的雨傘。"
+                    },
+                    {
+                        "id": "e5-4-u4-sg026",
+                        "sentence": "Whose watch are these?",
+                        "sentence_chinese": "這些是誰的手錶？"
+                    },
+                    {
+                        "id": "e5-4-u4-sg027",
+                        "sentence": "These are my grandfather's watches.",
+                        "sentence_chinese": "這些是我祖父的手錶。"
+                    },
+                    {
+                        "id": "e5-4-u4-sg028",
+                        "sentence": "Is that your blue jacket?",
+                        "sentence_chinese": "那是你的藍色夾克嗎？"
+                    },
+                    {
+                        "id": "e5-4-u4-sg029",
+                        "sentence": "No, it is my friend's jacket.",
+                        "sentence_chinese": "不，它是我朋友的夾克。"
+                    },
+                    {
+                        "id": "e5-4-u4-sg030",
+                        "sentence": "Whose glasses are those on the table?",
+                        "sentence_chinese": "桌上那些是誰的眼鏡？"
+                    }
+                ]
+            }
+        }
+    }
+}

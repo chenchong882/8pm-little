@@ -1,0 +1,942 @@
+{
+    "units": {
+        "e5-4-u3": {
+            "title": "Unit 3",
+            "vocab": [
+                {
+                    "id": "e5-4-u3-v001",
+                    "word": "dress",
+                    "part_of_speech": "n.",
+                    "chinese": "洋裝",
+                    "sentence": "The dress is red.",
+                    "sentence_chinese": "這件洋裝是紅色的。"
+                },
+                {
+                    "id": "e5-4-u3-v002",
+                    "word": "skirt",
+                    "part_of_speech": "n.",
+                    "chinese": "裙子",
+                    "sentence": "I like the pink skirt.",
+                    "sentence_chinese": "我喜歡這件粉紅色的裙子。"
+                },
+                {
+                    "id": "e5-4-u3-v003",
+                    "word": "sweater",
+                    "part_of_speech": "n.",
+                    "chinese": "毛衣",
+                    "sentence": "It is a warm sweater.",
+                    "sentence_chinese": "它是一件溫暖的毛衣。"
+                },
+                {
+                    "id": "e5-4-u3-v004",
+                    "word": "T-shirt",
+                    "part_of_speech": "n.",
+                    "chinese": "短袖上衣",
+                    "sentence": "My T-shirt is blue.",
+                    "sentence_chinese": "我的 T 恤是藍色的。"
+                },
+                {
+                    "id": "e5-4-u3-v005",
+                    "word": "pants",
+                    "part_of_speech": "n.",
+                    "chinese": "長褲",
+                    "sentence": "The pants are long.",
+                    "sentence_chinese": "這條長褲很長。"
+                },
+                {
+                    "id": "e5-4-u3-v006",
+                    "word": "shorts",
+                    "part_of_speech": "n.",
+                    "chinese": "短褲",
+                    "sentence": "I wear shorts in summer.",
+                    "sentence_chinese": "我夏天穿短褲。"
+                },
+                {
+                    "id": "e5-4-u3-v007",
+                    "word": "sneakers",
+                    "part_of_speech": "n.",
+                    "chinese": "運動鞋",
+                    "sentence": "These are my new sneakers.",
+                    "sentence_chinese": "這些是我的新運動鞋。"
+                },
+                {
+                    "id": "e5-4-u3-v008",
+                    "word": "socks",
+                    "part_of_speech": "n.",
+                    "chinese": "襪子",
+                    "sentence": "I have white socks.",
+                    "sentence_chinese": "我有白色的襪子。"
+                },
+                {
+                    "id": "e5-4-u3-v009",
+                    "word": "dollar",
+                    "part_of_speech": "n.",
+                    "chinese": "元",
+                    "sentence": "I have ten dollars.",
+                    "sentence_chinese": "我有十元。"
+                }
+            ],
+            "phrases": [
+                {
+                    "id": "e5-4-u3-p001",
+                    "phrase": "how much",
+                    "chinese": "多少錢",
+                    "sentence": "How much is it?",
+                    "sentence_chinese": "這個多少錢？"
+                }
+            ],
+            "grammar": {
+                "tips": [
+                    {
+                        "label": "問單數物品的價錢",
+                        "text": "How much is + the/this/that + 單數物品?"
+                    },
+                    {
+                        "label": "問複數物品的價錢",
+                        "text": "How much are + the/these/those + 複數物品?"
+                    }
+                ],
+                "notes": [
+                    {
+                        "title": "單數衣物的問與答",
+                        "rule": "問句用 is，答句用 It is (It's)。",
+                        "description": "當詢問洋裝 (dress)、裙子 (skirt)、毛衣 (sweater) 或 T 恤 (T-shirt) 時，因為它們是單一物件，所以要搭配單數的 be 動詞 is。",
+                        "examples": [
+                            "A: How much is the dress? (這件洋裝多少錢？)",
+                            "B: It's nine hundred dollars. (它是九百元。)"
+                        ]
+                    },
+                    {
+                        "title": "複數衣物的問與答（核心重點）",
+                        "rule": "問句用 are，答句用 They are (They're)。",
+                        "description": "英文中有些衣物因為有兩隻褲管或通常成雙成對穿戴，習慣以「複數」形式出現，例如：長褲 (pants)、短褲 (shorts)、運動鞋 (sneakers)、襪子 (socks)。遇到這些字時，必須當作複數看待，使用 are 來問價錢。",
+                        "examples": [
+                            "A: How much are the pants? (這條長褲多少錢？)",
+                            "B: They're four hundred and fifty dollars. (它們是四百五十元。)"
+                        ]
+                    }
+                ],
+                "quiz": [
+                    {
+                        "id": "e5-4-u3-q001",
+                        "question": "How much ______ the pink skirt?",
+                        "options": [
+                            "am",
+                            "is",
+                            "are"
+                        ],
+                        "answer": "is",
+                        "answer_index": 1,
+                        "hint": "skirt 是單數名詞，使用 is。"
+                    },
+                    {
+                        "id": "e5-4-u3-q002",
+                        "question": "How much ______ the blue pants?",
+                        "options": [
+                            "is",
+                            "am",
+                            "are"
+                        ],
+                        "answer": "are",
+                        "answer_index": 2,
+                        "hint": "pants 是複數名詞，使用 are。"
+                    },
+                    {
+                        "id": "e5-4-u3-q003",
+                        "question": "A: How much is the dress? <br>B: ______ ten dollars.",
+                        "options": [
+                            "It's",
+                            "They're",
+                            "I'm"
+                        ],
+                        "answer": "It's",
+                        "answer_index": 0,
+                        "hint": "dress 是單數，回答用 It's。"
+                    },
+                    {
+                        "id": "e5-4-u3-q004",
+                        "question": "A: How much are the socks? <br>B: ______ five dollars.",
+                        "options": [
+                            "It's",
+                            "We're",
+                            "They're"
+                        ],
+                        "answer": "They're",
+                        "answer_index": 2,
+                        "hint": "socks 是複數，回答用 They're。"
+                    },
+                    {
+                        "id": "e5-4-u3-q005",
+                        "question": "How much ______ the new sneakers?",
+                        "options": [
+                            "are",
+                            "is",
+                            "be"
+                        ],
+                        "answer": "are",
+                        "answer_index": 0,
+                        "hint": "sneakers 習慣用複數，搭配 are。"
+                    },
+                    {
+                        "id": "e5-4-u3-q006",
+                        "question": "The ______ is very pretty.",
+                        "options": [
+                            "shorts",
+                            "sweater",
+                            "sneakers"
+                        ],
+                        "answer": "sweater",
+                        "answer_index": 1,
+                        "hint": "is 前面要接單數名詞，故選 sweater。"
+                    },
+                    {
+                        "id": "e5-4-u3-q007",
+                        "question": "How much are ______ shoes?",
+                        "options": [
+                            "this",
+                            "that",
+                            "those"
+                        ],
+                        "answer": "those",
+                        "answer_index": 2,
+                        "hint": "are 搭配複數指示代名詞 those。"
+                    },
+                    {
+                        "id": "e5-4-u3-q008",
+                        "question": "I have twenty ______.",
+                        "options": [
+                            "dollar",
+                            "dollars",
+                            "a dollar"
+                        ],
+                        "answer": "dollars",
+                        "answer_index": 1,
+                        "hint": "twenty 是複數，dollar 要加 s。"
+                    },
+                    {
+                        "id": "e5-4-u3-q009",
+                        "question": "How much ______ that red T-shirt?",
+                        "options": [
+                            "am",
+                            "are",
+                            "is"
+                        ],
+                        "answer": "is",
+                        "answer_index": 2,
+                        "hint": "T-shirt 是單數名詞，搭配 is。"
+                    },
+                    {
+                        "id": "e5-4-u3-q010",
+                        "question": "These ______ are my favorite.",
+                        "options": [
+                            "dress",
+                            "skirt",
+                            "shorts"
+                        ],
+                        "answer": "shorts",
+                        "answer_index": 2,
+                        "hint": "are 前面要接複數名詞，故選 shorts。"
+                    },
+                    {
+                        "id": "e5-4-u3-q011",
+                        "question": "A: How much ______ the sweater? <br>B: It's 50 dollars.",
+                        "options": [
+                            "is",
+                            "are",
+                            "do"
+                        ],
+                        "answer": "is",
+                        "answer_index": 0,
+                        "hint": "sweater 是單數，故問句用 is。"
+                    },
+                    {
+                        "id": "e5-4-u3-q012",
+                        "question": "A: How much are the pants? <br>B: ______ 100 dollars.",
+                        "options": [
+                            "It's",
+                            "They're",
+                            "He's"
+                        ],
+                        "answer": "They're",
+                        "answer_index": 1,
+                        "hint": "pants 是複數，故答句用 They're。"
+                    },
+                    {
+                        "id": "e5-4-u3-q013",
+                        "question": "I like that ______ skirt.",
+                        "options": [
+                            "red",
+                            "reds",
+                            "a red"
+                        ],
+                        "answer": "red",
+                        "answer_index": 0,
+                        "hint": "形容詞修飾名詞，選 red。"
+                    },
+                    {
+                        "id": "e5-4-u3-q014",
+                        "question": "How much ______ the white socks?",
+                        "options": [
+                            "is",
+                            "are",
+                            "am"
+                        ],
+                        "answer": "are",
+                        "answer_index": 1,
+                        "hint": "socks 是複數，搭配 are。"
+                    },
+                    {
+                        "id": "e5-4-u3-q015",
+                        "question": "It ______ a warm sweater.",
+                        "options": [
+                            "are",
+                            "is",
+                            "am"
+                        ],
+                        "answer": "is",
+                        "answer_index": 1,
+                        "hint": "It 是單數主詞，搭配 is。"
+                    },
+                    {
+                        "id": "e5-4-u3-q016",
+                        "question": "My ______ are blue.",
+                        "options": [
+                            "T-shirt",
+                            "dress",
+                            "pants"
+                        ],
+                        "answer": "pants",
+                        "answer_index": 2,
+                        "hint": "are 搭配複數名詞 pants。"
+                    },
+                    {
+                        "id": "e5-4-u3-q017",
+                        "question": "I wear ______ in summer.",
+                        "options": [
+                            "shorts",
+                            "sweater",
+                            "socks"
+                        ],
+                        "answer": "shorts",
+                        "answer_index": 0,
+                        "hint": "夏天通常穿短褲 (shorts)。"
+                    },
+                    {
+                        "id": "e5-4-u3-q018",
+                        "question": "These are my new ______.",
+                        "options": [
+                            "dress",
+                            "skirt",
+                            "sneakers"
+                        ],
+                        "answer": "sneakers",
+                        "answer_index": 2,
+                        "hint": "These are 搭配複數 sneakers。"
+                    },
+                    {
+                        "id": "e5-4-u3-q019",
+                        "question": "How much is ______ dress?",
+                        "options": [
+                            "these",
+                            "this",
+                            "those"
+                        ],
+                        "answer": "this",
+                        "answer_index": 1,
+                        "hint": "is 搭配單數代名詞 this。"
+                    },
+                    {
+                        "id": "e5-4-u3-q020",
+                        "question": "A: How much are they? <br>B: ______ 90 dollars.",
+                        "options": [
+                            "They're",
+                            "It's",
+                            "You're"
+                        ],
+                        "answer": "They're",
+                        "answer_index": 0,
+                        "hint": "問 they 回答用 They're。"
+                    },
+                    {
+                        "id": "e5-4-u3-q021",
+                        "question": "I have ______ dollars.",
+                        "options": [
+                            "ten",
+                            "a",
+                            "one"
+                        ],
+                        "answer": "ten",
+                        "answer_index": 0,
+                        "hint": "dollars 是複數，數字要大於一。"
+                    },
+                    {
+                        "id": "e5-4-u3-q022",
+                        "question": "The ______ are long.",
+                        "options": [
+                            "skirt",
+                            "pants",
+                            "T-shirt"
+                        ],
+                        "answer": "pants",
+                        "answer_index": 1,
+                        "hint": "are 搭配複數名詞 pants。"
+                    },
+                    {
+                        "id": "e5-4-u3-q023",
+                        "question": "How much is ______ sweater?",
+                        "options": [
+                            "the",
+                            "these",
+                            "those"
+                        ],
+                        "answer": "the",
+                        "answer_index": 0,
+                        "hint": "is 搭配單數名詞與 the。"
+                    },
+                    {
+                        "id": "e5-4-u3-q024",
+                        "question": "How much ______ the dollar?",
+                        "options": [
+                            "is",
+                            "are",
+                            "am"
+                        ],
+                        "answer": "is",
+                        "answer_index": 0,
+                        "hint": "dollar 在此當單數名詞用。"
+                    },
+                    {
+                        "id": "e5-4-u3-q025",
+                        "question": "______ are the sneakers?",
+                        "options": [
+                            "How many",
+                            "How much",
+                            "How old"
+                        ],
+                        "answer": "How much",
+                        "answer_index": 1,
+                        "hint": "詢問價錢固定用 How much。"
+                    },
+                    {
+                        "id": "e5-4-u3-q026",
+                        "question": "A: Is the skirt 10 dollars? <br>B: Yes, ______.",
+                        "options": [
+                            "it is",
+                            "they are",
+                            "I am"
+                        ],
+                        "answer": "it is",
+                        "answer_index": 0,
+                        "hint": "skirt 是單數，簡答用 it is。"
+                    },
+                    {
+                        "id": "e5-4-u3-q027",
+                        "question": "A: Are the socks blue? <br>B: Yes, ______.",
+                        "options": [
+                            "it is",
+                            "they are",
+                            "you are"
+                        ],
+                        "answer": "they are",
+                        "answer_index": 1,
+                        "hint": "socks 是複數，簡答用 they are。"
+                    },
+                    {
+                        "id": "e5-4-u3-q028",
+                        "question": "The pink ______ is $5.",
+                        "options": [
+                            "shorts",
+                            "dress",
+                            "socks"
+                        ],
+                        "answer": "dress",
+                        "answer_index": 1,
+                        "hint": "is 前面搭配單數名詞 dress。"
+                    },
+                    {
+                        "id": "e5-4-u3-q029",
+                        "question": "How much are the yellow ______?",
+                        "options": [
+                            "T-shirt",
+                            "skirt",
+                            "sneakers"
+                        ],
+                        "answer": "sneakers",
+                        "answer_index": 2,
+                        "hint": "are 後面搭配複數名詞 sneakers。"
+                    },
+                    {
+                        "id": "e5-4-u3-q030",
+                        "question": "The ______ is warm.",
+                        "options": [
+                            "shorts",
+                            "sweater",
+                            "pants"
+                        ],
+                        "answer": "sweater",
+                        "answer_index": 1,
+                        "hint": "sweater 是單數，搭配 is。"
+                    },
+                    {
+                        "id": "e5-4-u3-q031",
+                        "question": "I have white ______.",
+                        "options": [
+                            "dress",
+                            "skirt",
+                            "socks"
+                        ],
+                        "answer": "socks",
+                        "answer_index": 2,
+                        "hint": "socks 通常是複數，符合語意。"
+                    },
+                    {
+                        "id": "e5-4-u3-q032",
+                        "question": "How much is ______ red T-shirt?",
+                        "options": [
+                            "that",
+                            "these",
+                            "those"
+                        ],
+                        "answer": "that",
+                        "answer_index": 0,
+                        "hint": "T-shirt 單數搭配 that。"
+                    },
+                    {
+                        "id": "e5-4-u3-q033",
+                        "question": "These sneakers ______ $50.",
+                        "options": [
+                            "is",
+                            "are",
+                            "am"
+                        ],
+                        "answer": "are",
+                        "answer_index": 1,
+                        "hint": "sneakers 複數搭配 are。"
+                    },
+                    {
+                        "id": "e5-4-u3-q034",
+                        "question": "My T-shirt ______ blue.",
+                        "options": [
+                            "is",
+                            "are",
+                            "am"
+                        ],
+                        "answer": "is",
+                        "answer_index": 0,
+                        "hint": "T-shirt 單數搭配 is。"
+                    },
+                    {
+                        "id": "e5-4-u3-q035",
+                        "question": "______ is the dress?",
+                        "options": [
+                            "What",
+                            "How much",
+                            "Where"
+                        ],
+                        "answer": "How much",
+                        "answer_index": 1,
+                        "hint": "問價錢用 How much。"
+                    },
+                    {
+                        "id": "e5-4-u3-q036",
+                        "question": "Those pants ______ long.",
+                        "options": [
+                            "are",
+                            "is",
+                            "am"
+                        ],
+                        "answer": "are",
+                        "answer_index": 0,
+                        "hint": "pants 複數搭配 are。"
+                    },
+                    {
+                        "id": "e5-4-u3-q037",
+                        "question": "How much are ______ sneakers?",
+                        "options": [
+                            "this",
+                            "these",
+                            "that"
+                        ],
+                        "answer": "these",
+                        "answer_index": 1,
+                        "hint": "sneakers 複數搭配 these。"
+                    },
+                    {
+                        "id": "e5-4-u3-q038",
+                        "question": "A: Is the sweater $20? <br>B: No, ______ $30.",
+                        "options": [
+                            "It's",
+                            "They're",
+                            "We're"
+                        ],
+                        "answer": "It's",
+                        "answer_index": 0,
+                        "hint": "sweater 單數回答用 It's。"
+                    },
+                    {
+                        "id": "e5-4-u3-q039",
+                        "question": "I like the ______ skirt.",
+                        "options": [
+                            "long",
+                            "longs",
+                            "are"
+                        ],
+                        "answer": "long",
+                        "answer_index": 0,
+                        "hint": "使用形容詞 long 修飾名詞。"
+                    },
+                    {
+                        "id": "e5-4-u3-q040",
+                        "question": "It is ______ dollars.",
+                        "options": [
+                            "one",
+                            "eight",
+                            "a"
+                        ],
+                        "answer": "eight",
+                        "answer_index": 1,
+                        "hint": "dollars 是複數，配數字 eight。"
+                    },
+                    {
+                        "id": "e5-4-u3-q041",
+                        "question": "How much ______ the blue dress?",
+                        "options": [
+                            "is",
+                            "are",
+                            "am"
+                        ],
+                        "answer": "is",
+                        "answer_index": 0,
+                        "hint": "dress 是單數。"
+                    },
+                    {
+                        "id": "e5-4-u3-q042",
+                        "question": "How much ______ those socks?",
+                        "options": [
+                            "is",
+                            "are",
+                            "am"
+                        ],
+                        "answer": "are",
+                        "answer_index": 1,
+                        "hint": "socks 是複數。"
+                    },
+                    {
+                        "id": "e5-4-u3-q043",
+                        "question": "______ is my new T-shirt.",
+                        "options": [
+                            "This",
+                            "These",
+                            "Those"
+                        ],
+                        "answer": "This",
+                        "answer_index": 0,
+                        "hint": "is 搭配單數 This。"
+                    },
+                    {
+                        "id": "e5-4-u3-q044",
+                        "question": "These ______ are for you.",
+                        "options": [
+                            "dollar",
+                            "sweater",
+                            "socks"
+                        ],
+                        "answer": "socks",
+                        "answer_index": 2,
+                        "hint": "These...are 搭配複數 socks。"
+                    },
+                    {
+                        "id": "e5-4-u3-q045",
+                        "question": "How much ______ the white sneakers?",
+                        "options": [
+                            "is",
+                            "am",
+                            "are"
+                        ],
+                        "answer": "are",
+                        "answer_index": 2,
+                        "hint": "sneakers 複數搭配 are。"
+                    },
+                    {
+                        "id": "e5-4-u3-q046",
+                        "question": "A: How much is it? <br>B: It's one ______.",
+                        "options": [
+                            "dollar",
+                            "dollars",
+                            "dollar's"
+                        ],
+                        "answer": "dollar",
+                        "answer_index": 0,
+                        "hint": "one（一）接單數 dollar。"
+                    },
+                    {
+                        "id": "e5-4-u3-q047",
+                        "question": "A: How much is the skirt? <br>B: It is ______ dollars.",
+                        "options": [
+                            "ten",
+                            "a",
+                            "an"
+                        ],
+                        "answer": "ten",
+                        "answer_index": 0,
+                        "hint": "價錢用數字 ten 表示。"
+                    },
+                    {
+                        "id": "e5-4-u3-q048",
+                        "question": "The ______ is pink.",
+                        "options": [
+                            "pants",
+                            "sneakers",
+                            "skirt"
+                        ],
+                        "answer": "skirt",
+                        "answer_index": 2,
+                        "hint": "is 搭配單數 skirt。"
+                    },
+                    {
+                        "id": "e5-4-u3-q049",
+                        "question": "______ are the shorts?",
+                        "options": [
+                            "How much",
+                            "What",
+                            "Who"
+                        ],
+                        "answer": "How much",
+                        "answer_index": 0,
+                        "hint": "問價錢用 How much。"
+                    },
+                    {
+                        "id": "e5-4-u3-q050",
+                        "question": "They are new ______.",
+                        "options": [
+                            "dress",
+                            "sneakers",
+                            "sweater"
+                        ],
+                        "answer": "sneakers",
+                        "answer_index": 1,
+                        "hint": "They are 搭配複數 sneakers。"
+                    }
+                ]
+            },
+            "scrambles": {
+                "vocab": [
+                    {
+                        "id": "e5-4-u3-sv001",
+                        "vocab_id": "e5-4-u3-v001",
+                        "sentence": "The dress is red.",
+                        "sentence_chinese": "這件洋裝是紅色的。"
+                    },
+                    {
+                        "id": "e5-4-u3-sv002",
+                        "vocab_id": "e5-4-u3-v002",
+                        "sentence": "I like the pink skirt.",
+                        "sentence_chinese": "我喜歡這件粉紅色的裙子。"
+                    },
+                    {
+                        "id": "e5-4-u3-sv003",
+                        "vocab_id": "e5-4-u3-v003",
+                        "sentence": "It is a warm sweater.",
+                        "sentence_chinese": "它是一件溫暖的毛衣。"
+                    },
+                    {
+                        "id": "e5-4-u3-sv004",
+                        "vocab_id": "e5-4-u3-v004",
+                        "sentence": "My T-shirt is blue.",
+                        "sentence_chinese": "我的 T 恤是藍色的。"
+                    },
+                    {
+                        "id": "e5-4-u3-sv005",
+                        "vocab_id": "e5-4-u3-v005",
+                        "sentence": "The pants are long.",
+                        "sentence_chinese": "這條長褲很長。"
+                    },
+                    {
+                        "id": "e5-4-u3-sv006",
+                        "vocab_id": "e5-4-u3-v006",
+                        "sentence": "I wear shorts in summer.",
+                        "sentence_chinese": "我夏天穿短褲。"
+                    },
+                    {
+                        "id": "e5-4-u3-sv007",
+                        "vocab_id": "e5-4-u3-v007",
+                        "sentence": "These are my new sneakers.",
+                        "sentence_chinese": "這些是我的新運動鞋。"
+                    },
+                    {
+                        "id": "e5-4-u3-sv008",
+                        "vocab_id": "e5-4-u3-v008",
+                        "sentence": "I have white socks.",
+                        "sentence_chinese": "我有白色的襪子。"
+                    },
+                    {
+                        "id": "e5-4-u3-sv009",
+                        "vocab_id": "e5-4-u3-v009",
+                        "sentence": "I have ten dollars.",
+                        "sentence_chinese": "我有十元。"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "id": "e5-4-u3-sp001",
+                        "phrase_id": "e5-4-u3-p001",
+                        "sentence": "How much is it?",
+                        "sentence_chinese": "這個多少錢？"
+                    }
+                ],
+                "grammar": [
+                    {
+                        "id": "e5-4-u3-sg001",
+                        "sentence": "How much is the red dress?",
+                        "sentence_chinese": "這件紅色的洋裝多少錢？"
+                    },
+                    {
+                        "id": "e5-4-u3-sg002",
+                        "sentence": "It is nine hundred dollars.",
+                        "sentence_chinese": "它是九百元。"
+                    },
+                    {
+                        "id": "e5-4-u3-sg003",
+                        "sentence": "How much are the blue pants?",
+                        "sentence_chinese": "這條藍色的長褲多少錢？"
+                    },
+                    {
+                        "id": "e5-4-u3-sg004",
+                        "sentence": "They are four hundred and fifty dollars.",
+                        "sentence_chinese": "它們是四百五十元。"
+                    },
+                    {
+                        "id": "e5-4-u3-sg005",
+                        "sentence": "How much is the pink skirt?",
+                        "sentence_chinese": "這件粉紅色的裙子多少錢？"
+                    },
+                    {
+                        "id": "e5-4-u3-sg006",
+                        "sentence": "It is one hundred dollars.",
+                        "sentence_chinese": "它是一百元。"
+                    },
+                    {
+                        "id": "e5-4-u3-sg007",
+                        "sentence": "How much are the yellow socks?",
+                        "sentence_chinese": "這些黃色的襪子多少錢？"
+                    },
+                    {
+                        "id": "e5-4-u3-sg008",
+                        "sentence": "They are ten dollars.",
+                        "sentence_chinese": "它們是十元。"
+                    },
+                    {
+                        "id": "e5-4-u3-sg009",
+                        "sentence": "How much is that warm sweater?",
+                        "sentence_chinese": "那件溫暖的毛衣多少錢？"
+                    },
+                    {
+                        "id": "e5-4-u3-sg010",
+                        "sentence": "It is eight hundred dollars.",
+                        "sentence_chinese": "它是八百元。"
+                    },
+                    {
+                        "id": "e5-4-u3-sg011",
+                        "sentence": "How much are those new sneakers?",
+                        "sentence_chinese": "那些新的運動鞋多少錢？"
+                    },
+                    {
+                        "id": "e5-4-u3-sg012",
+                        "sentence": "They are five hundred dollars.",
+                        "sentence_chinese": "它們是五百元。"
+                    },
+                    {
+                        "id": "e5-4-u3-sg013",
+                        "sentence": "How much is this blue T-shirt?",
+                        "sentence_chinese": "這件藍色的 T 恤多少錢？"
+                    },
+                    {
+                        "id": "e5-4-u3-sg014",
+                        "sentence": "It is three hundred dollars.",
+                        "sentence_chinese": "它是三百元。"
+                    },
+                    {
+                        "id": "e5-4-u3-sg015",
+                        "sentence": "How much are the short pants?",
+                        "sentence_chinese": "這條短的長褲多少錢？"
+                    },
+                    {
+                        "id": "e5-4-u3-sg016",
+                        "sentence": "They are two hundred dollars.",
+                        "sentence_chinese": "它們是二百元。"
+                    },
+                    {
+                        "id": "e5-4-u3-sg017",
+                        "sentence": "How much is the long skirt?",
+                        "sentence_chinese": "這件長的裙子多少錢？"
+                    },
+                    {
+                        "id": "e5-4-u3-sg018",
+                        "sentence": "It is four hundred dollars.",
+                        "sentence_chinese": "它是四百元。"
+                    },
+                    {
+                        "id": "e5-4-u3-sg019",
+                        "sentence": "How much are these white socks?",
+                        "sentence_chinese": "這些白色的襪子多少錢？"
+                    },
+                    {
+                        "id": "e5-4-u3-sg020",
+                        "sentence": "They are five dollars.",
+                        "sentence_chinese": "它們是五元。"
+                    },
+                    {
+                        "id": "e5-4-u3-sg021",
+                        "sentence": "How much is that red sweater?",
+                        "sentence_chinese": "那件紅色的毛衣多少錢？"
+                    },
+                    {
+                        "id": "e5-4-u3-sg022",
+                        "sentence": "It is six hundred dollars.",
+                        "sentence_chinese": "它是六百元。"
+                    },
+                    {
+                        "id": "e5-4-u3-sg023",
+                        "sentence": "How much are those pink sneakers?",
+                        "sentence_chinese": "那些粉紅色的運動鞋多少錢？"
+                    },
+                    {
+                        "id": "e5-4-u3-sg024",
+                        "sentence": "They are seven hundred dollars.",
+                        "sentence_chinese": "它們是七百元。"
+                    },
+                    {
+                        "id": "e5-4-u3-sg025",
+                        "sentence": "How much is the blue dress?",
+                        "sentence_chinese": "這件藍色的洋裝多少錢？"
+                    },
+                    {
+                        "id": "e5-4-u3-sg026",
+                        "sentence": "It is fifteen dollars.",
+                        "sentence_chinese": "它是十五元。"
+                    },
+                    {
+                        "id": "e5-4-u3-sg027",
+                        "sentence": "How much are these long pants?",
+                        "sentence_chinese": "這些長的長褲多少錢？"
+                    },
+                    {
+                        "id": "e5-4-u3-sg028",
+                        "sentence": "They are twelve dollars.",
+                        "sentence_chinese": "它們是十二元。"
+                    },
+                    {
+                        "id": "e5-4-u3-sg029",
+                        "sentence": "How much is this warm dress?",
+                        "sentence_chinese": "這件溫暖的洋裝多少錢？"
+                    },
+                    {
+                        "id": "e5-4-u3-sg030",
+                        "sentence": "It is fifty dollars.",
+                        "sentence_chinese": "它是五十元。"
+                    }
+                ]
+            }
+        }
+    }
+}
