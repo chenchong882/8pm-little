@@ -576,9 +576,10 @@
             const [showGiveUpConfirm, setShowGiveUpConfirm] = useState(false);
             const [showHelperHint, setShowHelperHint] = useState(false);
             const [magicCount, setMagicCount] = useState(0);
+            const [gaveUp, setGaveUp] = useState(false);
             useEffect(() => { resetGame(); }, [data]);
             const resetGame = () => { if (!data || data.length === 0) return; const count = 5; const shuffledQuestions = shuffleArray([...data]).slice(0, count); setQuestions(shuffledQuestions); setCurrentIndex(0); setScore(0); setShowResult(false); if (shuffledQuestions.length > 0) loadQuestion(shuffledQuestions[0]); };
-            const loadQuestion = (question) => { if (!question) return; const rawSentence = question.sentence; const spacedSentence = rawSentence.replace(/([.!?])$/, ' $1'); const words = spacedSentence.split(' '); const wordsWithIds = words.map((word, index) => ({ id: `${index}-${word}`, text: word })); setAvailableWords(shuffleArray(wordsWithIds)); setUserSentence([]); setFeedback(null); setShowGiveUpConfirm(false); setShowHelperHint(false); setMagicCount(0); };
+            const loadQuestion = (question) => { if (!question) return; const rawSentence = question.sentence; const spacedSentence = rawSentence.replace(/([.!?])$/, ' $1'); const words = spacedSentence.split(' '); const wordsWithIds = words.map((word, index) => ({ id: `${index}-${word}`, text: word })); setAvailableWords(shuffleArray(wordsWithIds)); setUserSentence([]); setFeedback(null); setShowGiveUpConfirm(false); setShowHelperHint(false); setMagicCount(0); setGaveUp(false); };
             const handleSkipQuestion = () => { if (questions.length <= 1) return; const currentQuestionIds = questions.map(q => q.id); const candidates = data.filter(item => !currentQuestionIds.includes(item.id)); let newQuestion; if (candidates.length > 0) { newQuestion = candidates[Math.floor(Math.random() * candidates.length)]; } else { const otherQuestions = data.filter(item => item.id !== questions[currentIndex].id); newQuestion = otherQuestions[Math.floor(Math.random() * otherQuestions.length)]; } const newQuestions = [...questions]; newQuestions[currentIndex] = newQuestion; setQuestions(newQuestions); loadQuestion(newQuestion); };
             const handleWordClick = (wordObj) => { if (feedback === 'correct') return; if (feedback === 'wrong') setFeedback(null); setAvailableWords(prev => prev.filter(w => w.id !== wordObj.id)); setUserSentence(prev => [...prev, wordObj]); };
             const handleAnswerClick = (wordObj) => { if (feedback === 'correct') return; if (feedback === 'wrong') setFeedback(null); setUserSentence(prev => prev.filter(w => w.id !== wordObj.id)); setAvailableWords(prev => [...prev, wordObj]); };
@@ -592,7 +593,7 @@
                 if (nextWordObj) { const newCorrectUserSentence = [...userSentence.slice(0, firstWrongIndex), nextWordObj]; const newAvailableWords = allWords.filter(w => !newCorrectUserSentence.some(cw => cw.id === w.id)); setUserSentence(newCorrectUserSentence); setAvailableWords(newAvailableWords); speakText(nextWordObj.text); }
             };
             const handleGiveUpClick = () => { setFeedback(null); setShowGiveUpConfirm(true); };
-            const confirmGiveUp = () => { const allWords = [...userSentence, ...availableWords]; allWords.sort((a, b) => { const indexA = parseInt(a.id.split('-')[0]); const indexB = parseInt(b.id.split('-')[0]); return indexA - indexB; }); setUserSentence(allWords); setAvailableWords([]); setFeedback('correct'); setShowGiveUpConfirm(false); };
+            const confirmGiveUp = () => { const allWords = [...userSentence, ...availableWords]; allWords.sort((a, b) => { const indexA = parseInt(a.id.split('-')[0]); const indexB = parseInt(b.id.split('-')[0]); return indexA - indexB; }); setUserSentence(allWords); setAvailableWords([]); setGaveUp(true); setFeedback('correct'); setShowGiveUpConfirm(false); };
             const checkAnswer = () => { const currentQuestion = questions[currentIndex]; const targetSentence = currentQuestion.sentence.replace(/\s+([.!?])/g, '$1'); const userRawString = userSentence.map(w => w.text).join(' '); const userCleanString = userRawString.replace(/\s+([.!?])/g, '$1'); if (userCleanString === targetSentence) { if (feedback === 'correct') return; setFeedback('correct'); if (magicCount <= 2) setScore(prev => prev + 20); speakText(currentQuestion.sentence); } else { setFeedback('wrong'); speakText("Oops"); } };
             const nextQuestion = () => { if (currentIndex < questions.length - 1) { setCurrentIndex(prev => prev + 1); loadQuestion(questions[currentIndex + 1]); } else { setShowResult(true); } };
             if (!questions || questions.length === 0) return <div className="p-10 text-center font-bold text-slate-400">Loading or No Data...</div>;
@@ -601,6 +602,19 @@
             return (
                 <div className="flex flex-col h-full max-w-2xl mx-auto pb-24 relative">
                     <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0 opacity-30"><div className="absolute top-10 left-10 text-yellow-300"><Star size={40} /></div><div className="absolute top-40 right-10 text-rose-300"><Puzzle size={50} /></div><div className="absolute bottom-20 left-20 text-sky-300"><Gamepad2 size={60} /></div></div>
+                    {/* 魔法提示/查看答案警示條 */}
+                    <div className="w-full flex gap-2 mb-4 z-10 relative">
+                        <div className={`flex-1 flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-black border-2 transition-all ${magicCount === 0 ? 'bg-slate-50 border-slate-200 text-slate-400' : magicCount === 1 ? 'bg-yellow-50 border-yellow-300 text-yellow-700' : magicCount === 2 ? 'bg-orange-100 border-orange-400 text-orange-700' : 'bg-red-100 border-red-400 text-red-700'}`}>
+                            <Wand2 className="w-3.5 h-3.5" />
+                            魔法提示：{magicCount}/2
+                            {magicCount > 2 && <span className="ml-1 text-red-600">⚠ 不計分！</span>}
+                        </div>
+                        <div className={`flex-1 flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-black border-2 transition-all ${gaveUp ? 'bg-red-100 border-red-400 text-red-700' : 'bg-slate-50 border-slate-200 text-slate-400'}`}>
+                            <Flag className="w-3.5 h-3.5" />
+                            查看答案
+                            {gaveUp && <span className="ml-1 text-red-600">⚠ 不計分！</span>}
+                        </div>
+                    </div>
                     <div className="bg-white border-4 border-b-8 border-orange-200 rounded-3xl p-6 mb-6 text-center relative z-10 shadow-sm">
                         <div className="flex justify-between items-center mb-2"><div className="inline-block bg-orange-100 text-orange-600 font-black px-3 py-1 rounded-lg text-xs border-2 border-orange-200">{titleOverride ? titleOverride : `LEVEL ${currentIndex + 1}`}</div>{currentQ?.word && <div className="text-xs font-bold text-slate-400 bg-slate-100 px-2 py-1 rounded">Target: {currentQ.word}</div>}</div>
                         <h2 className="font-black text-2xl text-slate-800 mb-4 leading-relaxed drop-shadow-sm">{currentQ?.sentence_chinese}</h2>
